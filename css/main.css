@@ -1,0 +1,233 @@
+.citizen{
+  text-align: center;
+  line-height: 12px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.body-index {
+    background-color: #e7e7ef;
+   }
+
+.hero{
+  background-image: url(../img/17962-01.png);
+  background-size: cover;
+  background-position: fixed;
+  bottom: 0;
+  height: 60em;
+}
+
+.services-title{
+  text-align: center;
+}
+
+.nav-wrapper{
+  background-image: url(../img/17962-01.png);
+  padding:8px;
+}
+
+.nav-logo{
+  height : 65px;
+  width : 65px;
+  margin: 10px 10px 1px 5px;
+  -webkit-filter: drop-shadow(0px 0px 1px rgb(255, 255, 255))
+                   drop-shadow(0px 0px 1px rgb(255, 255, 255))
+                   drop-shadow(0px 0px 1px rgb(255, 255, 255));
+/*filter: drop-shadow(0px 0px 2px rgba(255, 255, 255));*/
+}
+
+.bagong{
+  height : 80px;
+  width : 80px;
+  margin: -1px 5px 5px 5px;
+  -webkit-filter: drop-shadow(0px 0px 1px rgb(255, 255, 255))
+  drop-shadow(0px 0px .5px rgb(255, 255, 255))
+  drop-shadow(0px 0px .5px rgb(255, 255, 255))
+  drop-shadow(0px 0px .5px rgb(255, 255, 255));
+}
+
+#tesda-name{
+  font-family: Fremont, Arial, Helvetica, sans-serif;
+  margin: 10px 10px 1px 5px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-shadow: 3px 3px 7px #000116;
+}
+
+nav{
+  display:block;
+}
+
+.cmnv{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color:azure;
+  font-weight: 700;
+  text-shadow: 5px 5px 0px #000116;
+
+}
+.citizen{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  color:azure;
+  text-shadow: 5px 5px 0px #000116;
+  font-weight: 900;
+
+}
+.view{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#000000;
+  font-weight: bolder;
+  font-size: 15px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #ffffff;
+  border-color: #000000;
+  border-width: 2px;
+  box-shadow: 5px 5px 0px #000000;
+  letter-spacing: 3px;
+}
+ .view:hover{
+  font-weight: normal;
+  background-color: #84ffff;/*#2de4dbf1;*/
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 0px #000000;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+a:hover{
+  color: rgb(0, 0, 0);
+}
+
+ul a{
+  padding: 100em;
+}
+
+#tesda-name{
+  font-size: 20px;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+.card-action:hover{
+  font-weight:bold;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 2px 5px 0px #013894;
+  color: #013894;
+}
+
+.carousel{
+  height: 700px;
+}
+.carousel .carousel-item {
+  width: 100%;
+  height: 100%;
+
+}
+
+.collapsible-header:hover{
+  font-weight: bolder;
+}
+.footer-copyright{
+  background-image: url(../img/17962-01.png);
+  font-size: 8px;
+  padding: 10px;
+  height: 60px;
+}
+.footer-tesda{
+  margin-top: 15px;
+  font-size: 12px;
+}
+.footer-lingap{
+  height : 50px;
+  margin: -35px 5px 5px 5px;
+  -webkit-filter: drop-shadow(0px 0px 1px rgb(255, 255, 255));
+  /*
+  drop-shadow(0px 0px 1px rgb(255, 255, 255))
+  drop-shadow(0px 0px 1px rgb(255, 255, 255))
+    drop-shadow(0px 0px .5px rgb(255, 255, 255));*/
+}
+.footer-anniv{
+  height : 50px;
+  margin: -38px 1px 5px 15px;
+}
+
+#header{
+  overflow: hidden;
+  position:fixed;
+  float: left;
+  top:0;
+  height: 90px;
+}
+/*
+.navbar{
+  overflow: hidden;
+  position:fixed;
+  float: left;
+  top:0;
+  height: 100px;
+}
+*/
+
+/*PROCESSES*/
+#process{
+  width: 20px;
+}
+
+table {
+  border-spacing: 0px;
+  table-layout: fixed;
+  margin-left:auto; 
+  margin-right:auto;
+}
+th {
+  color: #0810ab;
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+}
+
+#thead1 #tbody1 {
+  display:inline-block;
+}
+
+#ttop tr th td{
+  border-style:hidden;
+}
+
+#bold_{
+  font-weight: bold;
+  text-align: right;
+}
+
+
+#tableReq * th {
+  text-align: center;
+}
+
+
+#tableSteps * th {
+  text-align: center;
+}
+#tableSteps * td {
+  vertical-align: text-top;
+}
+
+#lists{
+  list-style-type: disc;
+}
+
+:-moz-loading {
+  background-color: #aaa;
+  background-image: url(../img/loading-animation.gif) center no-repeat;
+}
+  
