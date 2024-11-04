@@ -40,6 +40,33 @@
 /*filter: drop-shadow(0px 0px 2px rgba(255, 255, 255));*/
 }
 
+form{
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+
+}
+
+#search{
+  background-image: url(../img/icons-search.png);
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  float: none;
+  width: 300px;
+  height:15px;
+  margin: 0;
+  padding: 14px 20px 12px 40px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+    
+
 .bagong{
   height : 80px;
   width : 80px;
@@ -71,7 +98,7 @@ nav{
 
 }
 .citizen{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 100px;
   color:azure;
   text-shadow: 5px 5px 0px #000116;
@@ -82,7 +109,7 @@ nav{
   width: 200px;
   height: 50px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Work Sans", sans-serif;
   color:#000000;
   font-weight: bolder;
   font-size: 15px;
@@ -113,14 +140,42 @@ ul a{
 
 #tesda-name{
   font-size: 20px;
-  font-family: Tahoma, Verdana, sans-serif;
+  font-family: "Work Sans", sans-serif;;
 }
+
+.card-content{
+    border: 1px solid #ccc;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
+/*
+.card-content{
+.card, card-content{
+  display:flex;
+  flex-direction: column;
+
+  &-content{
+    justify-content: space-between;
+    flex:1;
+  }
+  
+}
+  height: 15em;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}*/
 .card-action:hover{
   font-weight:bold;
 }
 .card:hover{
   transform: scale(1.05);
-  box-shadow: 2px 5px 0px #013894;
+  /*box-shadow: 3px 5px 0.2px #000000;*/
   color: #013894;
 }
 
@@ -230,4 +285,24 @@ td {
   background-color: #aaa;
   background-image: url(../img/loading-animation.gif) center no-repeat;
 }
-  
+
+.btn-floating{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 5px 15x .5px #000000;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  color:#ffffff;
+  font-size: 16px;
+  background-color: #01121f;
+  letter-spacing: 3px;
+
+}
+  .btn-floating:hover{
+  background-color: #017fdd;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  letter-spacing: 4px;
+  box-shadow: 3px 3px 0px #000000;
+  }
