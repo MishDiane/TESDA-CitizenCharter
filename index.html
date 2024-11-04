@@ -28,12 +28,12 @@
       </a>
       <form id="searchForm" action="javascript:search();">
           <input id="search" type="search" placeholder="Search.." required class="right">
-          <!--
+          
           <button id="go" class="btn btn-default right" type="button" 
               onclick="document.getElementById('searchForm').submit(); return false;">
               Go
           </button>
-        -->
+        
       </form>
     </div>
   </nav>
@@ -279,22 +279,20 @@
     });
 
     function search() {
- 
-      var name = document.getElementById("searchForm").elements["search"].value;
-      var pattern = name.toLowerCase();
-      var targetId = "";
+    var searchValue = document.getElementById("search").value.toLowerCase();
+    var cards = document.getElementsByClassName("card");
+    
+    for (var i = 0; i < cards.length; i++) {
 
-      var divs = document.getElementsByClassName("card");
-        for (var i = 0; i < divs.length; i++) {
-            var para = divs[i].getElementsByTagName("strong");
-            var index = para[0].innerText.toLowerCase().indexOf(pattern);
-            if (index != -1) {
-              targetId = divs[i].parentNode.id;
-              document.getElementById(targetId).scrollIntoView();
-              break;
-            }
-        }  
+        var cardTitle = cards[i].getElementsByClassName("card-title")[0].innerText.toLowerCase();
+        if (cardTitle.includes(searchValue)) {
+            cards[i].style.display = "block";
+        } else {
+            cards[i].style.display = "none";
+        }
     }
+}
+
 
 
 
